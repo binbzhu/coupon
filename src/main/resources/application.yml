@@ -6,7 +6,7 @@ eureka:
     prefer-ip-address: true
     instance-id: ${spring.cloud.client.ipAddress}:${server.port}
 server:
-  port: 8076
+  port: 8075
 spring:
   application:
     name: service-zuul
