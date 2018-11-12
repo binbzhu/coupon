@@ -2,7 +2,7 @@ zuul:
   routes:
     api-a:
       path: /api-a/*
-      serviceId: service-hi-test
+      serviceId: service-hi
     api-b:
       path: /api-b/*
       serviceId: service-feign
