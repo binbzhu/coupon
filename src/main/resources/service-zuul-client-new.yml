@@ -2,7 +2,7 @@ zuul:
   routes:
     api-a:
       path: /api-a/*
-      serviceId: service-miya
+      serviceId: SERVICE-MIYA
     api-b:
       path: /api-b/*
       serviceId: service-feign
